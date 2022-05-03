@@ -1,3 +1,4 @@
+
 JSON
  4. Создать внешний репозиторий c названием JSON. == 
  5. Клонировать репозиторий JSON на локальный компьютер. == git clone https://github.com/Jornipam/JSON.git
@@ -20,15 +21,36 @@ JSON
  11. Отправить изменения на внешний репозиторий. == git add new.json
  ==git commit -a "added information about yourself"
  ==git push
- 12. Создать файл preferences.json
+ 12. Создать файл preferences.json ==vim preferences.json 
  13. В файл preferences.json добавить информацию о своих предпочтениях (Любимый фильм, любимый сериал, любимая еда, любимое время года, сторона которую хотели бы посетить) в формате JSON.
+ == {	
+"favoriteFilm": "Stonehearst Asylum",
+"favoriteShow": "Shameless",
+"favoritFood": "Omurise",
+"favoritSeason": "Spring",
+"CountryYouWhantToVisit": "Nippon"
+}
  14. Создать файл sklls.json добавить информацию о скиллах которые будут изучены на курсе в формате JSON
- 15. Отправить сразу 2 файла на внешний репозиторий.
+ ==vim skills.json
+ =={ "Skills": {
+"s1":"Postman",
+"s2":"Снятие и чтение логов с внешнего сервера",
+"s3":"Charles и Fiddler",
+"s4":"Dev Tools",
+"s5":"Android Studio",
+"s6":"Основы bash",
+"s7":"Основы SQL",
+"s8":"Jmeter" }}
+ 15. Отправить сразу 2 файла на внешний репозиторий. == git add .
+== git commit -m ""
+=git push
  16. На веб интерфейсе создать файл bug_report.json.
  17. Сделать Commit changes (сохранить) изменения на веб интерфейсе.
  18. На веб интерфейсе модифицировать файл bug_report.json, добавить баг репорт в формате JSON.
  19. Сделать Commit changes (сохранить) изменения на веб интерфейсе.
  20. Синхронизировать внешний и локальный репозиторий JSON
+== git fetch
+== git pull
 
 
 XML
